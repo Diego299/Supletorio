@@ -1,13 +1,8 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import AppNavigator from './navigator/AppNavigator';
+import NavegacionScreens from './Navegacion/NavegacionScreens';
 
-const App: React.FC = () => {
-  return (
-    <NavigationContainer>
-      <AppNavigator />
-    </NavigationContainer>
-  );
+const App = () => {
+  return <NavegacionScreens />;
 };
 
 export default App;
+
